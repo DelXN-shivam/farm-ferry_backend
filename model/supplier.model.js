@@ -30,3 +30,5 @@ supplierSchema.methods.isValidPassword = async function (password) {
 
 const Supplier = mongodb.models.Supplier || mongodb.model('Supplier', supplierSchema);
 module.exports = Supplier;
+
+
